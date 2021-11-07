@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+    {% if channels %}
+    <div class="col d-flex justify-content-center">
+        {% for channel in channels %}
+            <div class="card style="width:150px">
+                <img src="{{ channel.channelThumbnailMedium }}" alt="{{ channel.channelTitle }}" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">{{ channel.channelTitle }}</h4>
+                    <p class="card-text">{{ channel.channelDescription | truncate(120, True, end='...') }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt="" width="48" height="38">
+    <div class="lh-1">
+        <h1 class="h6 mb-0 text-white lh-1">About page</h1>
+            <small>Since 2021</small>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}

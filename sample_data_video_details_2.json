@@ -1,0 +1,77 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "BHiHmvykz192VsXvm0Liq1b5lQ4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "QjtdYjxmKvH0i1SW5DBEvDYb5is",
+      "id": "dPoE6x65B94",
+      "snippet": {
+        "publishedAt": "2021-10-30T13:31:13Z",
+        "channelId": "UC2K_1ag15SEOErUIbm5AWxw",
+        "title": "LIVE 🔴 ADU-ȚI AMINTE DE PRIMUL TĂU MONITOR! powered by AGON by AOC",
+        "description": "#AGONbyAOC - Spune-mi cea mai tare poveste legată de primul tău monitor și poți câștiga un monitor\nAGON by AOC 27G2SU: https://eu.aoc.com/en/gaming/products/monitors/27g2su-bk\nReview monitor - https://youtu.be/ulTadj82mGE\n\nCitim povestile abonatilor de la postarea IG 📃 https://www.instagram.com/p/CVlDgtZImXE/ sau de aici, de pe stream. Se iau in considerare doar povestile care contin hashtagul #AGONbyAOC. Cea mai buna poveste va fi premiata cu monitorul de mai sus! 🔥\n\nBafta my friendos! 💛",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dPoE6x65B94/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dPoE6x65B94/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dPoE6x65B94/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dPoE6x65B94/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dPoE6x65B94/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OneFlash",
+        "tags": [
+          "oneflash",
+          "agon by aoc",
+          "agon",
+          "monitor 165hz",
+          "monitor gaming",
+          "storytime",
+          "povesti",
+          "monitor vechi",
+          "monitor cu tub",
+          "oneflash aoc",
+          "aoc"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ro",
+        "localized": {
+          "title": "LIVE 🔴 ADU-ȚI AMINTE DE PRIMUL TĂU MONITOR! powered by AGON by AOC",
+          "description": "#AGONbyAOC - Spune-mi cea mai tare poveste legată de primul tău monitor și poți câștiga un monitor\nAGON by AOC 27G2SU: https://eu.aoc.com/en/gaming/products/monitors/27g2su-bk\nReview monitor - https://youtu.be/ulTadj82mGE\n\nCitim povestile abonatilor de la postarea IG 📃 https://www.instagram.com/p/CVlDgtZImXE/ sau de aici, de pe stream. Se iau in considerare doar povestile care contin hashtagul #AGONbyAOC. Cea mai buna poveste va fi premiata cu monitorul de mai sus! 🔥\n\nBafta my friendos! 💛"
+        },
+        "defaultAudioLanguage": "ro"
+      },
+      "statistics": {
+        "viewCount": "869",
+        "likeCount": "180",
+        "dislikeCount": "4",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

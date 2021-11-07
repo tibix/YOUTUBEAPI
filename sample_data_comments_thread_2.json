@@ -1,0 +1,678 @@
+{
+    "kind": "youtube#commentThreadListResponse",
+    "etag": "Ssxg4epBkhu8cx3RR90I2EcTkag",
+    "nextPageToken": "QURTSl9pMVRhT3pnZEN2ak1YQ3ZKaWtNMEtHbktRWUNwZXZ2enFIRVN0Nm9UODlZWHFjeWQtVDZ3aERwME00SVlnZ0o2Ukswb01XVndsak9sMmRUV0VPVGEwUjVQSkQ5X3c=",
+    "pageInfo": {
+      "totalResults": 20,
+      "resultsPerPage": 20
+    },
+    "items": [
+      {
+        "kind": "youtube#commentThread",
+        "etag": "qfz4CnMqH0Uc3x8QwIu1lx-hJyg",
+        "id": "UgwfNzf5qlBuOAmp_Ql4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "onf4GmRIDmu7FqciRzWrSP_xces",
+            "id": "UgwfNzf5qlBuOAmp_Ql4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Join my free course on the basics of Flask-SQLAlchemy: \u003ca href=\"https://prettyprinted.com/flasksql\"\u003ehttps://prettyprinted.com/flasksql\u003c/a\u003e",
+              "textOriginal": "Join my free course on the basics of Flask-SQLAlchemy: https://prettyprinted.com/flasksql",
+              "authorDisplayName": "Pretty Printed",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLRr6kOati4x9b5Xda0AGUav1sbKiXn40uJpD3Gj=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC-QDfvrRIDB6F0bIO4I4HkQ",
+              "authorChannelId": {
+                "value": "UC-QDfvrRIDB6F0bIO4I4HkQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 6,
+              "publishedAt": "2020-02-27T12:27:35Z",
+              "updatedAt": "2020-02-27T12:27:35Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "IKR1P0qCUTyLBBmQyx-BtnWYgkA",
+        "id": "Ugzou3ih14N1GizSOVV4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "yq6n6Y8c5FmNw0Ti8J83Zn-QiYU",
+            "id": "Ugzou3ih14N1GizSOVV4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Hi congratulations, if  I want a query  only of pet table  How it is)",
+              "textOriginal": "Hi congratulations, if  I want a query  only of pet table  How it is)",
+              "authorDisplayName": "Marco Antonio Mojica Martinez",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTzCVXWbfrvLu2RopbZsWmNeyh2o8lla8W-Rg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCnAGFigKzLs8_L0PemnulpA",
+              "authorChannelId": {
+                "value": "UCnAGFigKzLs8_L0PemnulpA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-10-19T15:22:16Z",
+              "updatedAt": "2021-10-19T15:22:16Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 1,
+          "isPublic": true
+        },
+        "replies": {
+          "comments": [
+            {
+              "kind": "youtube#comment",
+              "etag": "oDMFL6E7eN4WN8x1Ek5RfniGlUU",
+              "id": "Ugzou3ih14N1GizSOVV4AaABAg.9TgGmHLgQjy9U7jOT0o1sY",
+              "snippet": {
+                "videoId": "juPQ04_twtA",
+                "textDisplay": "you can create  an object pet = Pet.query.filter_by() (depending on your needs .. hard to tell as there are many variants ) and work with the pet objects resulted from the query. You can do that for basically all models that you create. I hope this helps. Cheers",
+                "textOriginal": "you can create  an object pet = Pet.query.filter_by() (depending on your needs .. hard to tell as there are many variants ) and work with the pet objects resulted from the query. You can do that for basically all models that you create. I hope this helps. Cheers",
+                "parentId": "Ugzou3ih14N1GizSOVV4AaABAg",
+                "authorDisplayName": "Tiberiu Claudiu Dascal",
+                "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLRuNkArleTgQROhqmPnzHzdRxYLHfNib311u8qnLw=s48-c-k-c0x00ffffff-no-rj",
+                "authorChannelUrl": "http://www.youtube.com/channel/UC8aFORx2tjyaufa-ID60MoA",
+                "authorChannelId": {
+                  "value": "UC8aFORx2tjyaufa-ID60MoA"
+                },
+                "canRate": true,
+                "viewerRating": "none",
+                "likeCount": 0,
+                "publishedAt": "2021-10-30T16:39:45Z",
+                "updatedAt": "2021-10-30T16:40:46Z"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "3jfkouXcVzc4Bk_r9KQVg9TGoxw",
+        "id": "UgxOCRWrbDZFGmBLEzh4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "-UVVWEZw4jVyfzVvzL3wvWApBfY",
+            "id": "UgxOCRWrbDZFGmBLEzh4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "lovely",
+              "textOriginal": "lovely",
+              "authorDisplayName": "35_SUBHRADEEP PAL",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLSXDnnbcBg-QwXc4zHglkYubMkJKYPMROMIEkSk=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCCsvB__K8S9erw7cN-CmdHA",
+              "authorChannelId": {
+                "value": "UCCsvB__K8S9erw7cN-CmdHA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-10-11T06:47:43Z",
+              "updatedAt": "2021-10-11T06:47:43Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "XkXhCqX3ifEOj3g98DiSXOwoA2I",
+        "id": "UgyobOv1-4dEEmV1Ni14AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "GN5bDH6_IK-aHUuHMI9xpvHrlfM",
+            "id": "UgyobOv1-4dEEmV1Ni14AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Excellent!",
+              "textOriginal": "Excellent!",
+              "authorDisplayName": "Antonio Lares",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLRRU1eslPF0CJXSM_xPGTybeeSG4JPOle1jWQAtcw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC2oPovAu8TaLaPqpILACleg",
+              "authorChannelId": {
+                "value": "UC2oPovAu8TaLaPqpILACleg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-10-10T01:20:44Z",
+              "updatedAt": "2021-10-10T01:20:44Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "46Zq52VnAnoRd1B3SbyKkYHvuKI",
+        "id": "Ugz8OFc7poUKCYMR6rt4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "1ahz668bXdeNE1joBZUZJhjjQ3g",
+            "id": "Ugz8OFc7poUKCYMR6rt4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "thanks for great video \u003cbr\u003ehow to update foreign key in sqlalchemy?",
+              "textOriginal": "thanks for great video \nhow to update foreign key in sqlalchemy?",
+              "authorDisplayName": "Saeed Judia",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTaTM0HgnfEqKu_y0wxpuRAKgUnMRSYHoOkOA=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC96JJBus7AelLUTqqqCsH8w",
+              "authorChannelId": {
+                "value": "UC96JJBus7AelLUTqqqCsH8w"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-09-13T22:30:32Z",
+              "updatedAt": "2021-09-13T22:30:32Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "ryIjeFFmYw5KQaIWZwmBJCzXt8A",
+        "id": "UgypF-BREZ9LmRPbyq94AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Sa-JQbicZRNauuY04ILEhTdcvnA",
+            "id": "UgypF-BREZ9LmRPbyq94AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Thanks. As for a not native speaker of English, it was very difficult for me to understand the docs, but much more clear to see this lesson.",
+              "textOriginal": "Thanks. As for a not native speaker of English, it was very difficult for me to understand the docs, but much more clear to see this lesson.",
+              "authorDisplayName": "Виктор Стефанко",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTGqPZONT5ywSQUsQEN0YojT0YEJVZkIkT_Qw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCQ5rezUBAZjYUvjpFPd9QJw",
+              "authorChannelId": {
+                "value": "UCQ5rezUBAZjYUvjpFPd9QJw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2021-08-02T15:30:58Z",
+              "updatedAt": "2021-08-02T15:30:58Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "n5bB5jhvAtsPRdeu5J8TQB47gXE",
+        "id": "UgwISFKf_RRVOZr5BCd4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "lIbpwNJgcnELtXNjm2dihocuSts",
+            "id": "UgwISFKf_RRVOZr5BCd4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "You deserve lot more subscriber, your flask playlist is one of the best on YouTube",
+              "textOriginal": "You deserve lot more subscriber, your flask playlist is one of the best on YouTube",
+              "authorDisplayName": "Rahul Chauhan",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLS54hXDP5eXoss0I7HZXkvq0Zw6rY7GuYpOOqNpVg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCuQkAgNlf2SuTKA3h8qu99Q",
+              "authorChannelId": {
+                "value": "UCuQkAgNlf2SuTKA3h8qu99Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-08-01T06:30:22Z",
+              "updatedAt": "2021-08-01T06:30:22Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "8fMKbwRgCocso3lUlIy6FYZiPDE",
+        "id": "UgxSvh0tsKfAWR_Xl1B4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "DRntvn_VSDf7vhZs5xFmn89cdfY",
+            "id": "UgxSvh0tsKfAWR_Xl1B4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Thanks a lot. It all makes sense now",
+              "textOriginal": "Thanks a lot. It all makes sense now",
+              "authorDisplayName": "Евгений Лаврентьев",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTUTw4t-Y1pENar5gaEtHBKkenFToaHKirTXA=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCBhxXBc3uwQiE4JPmaulQoQ",
+              "authorChannelId": {
+                "value": "UCBhxXBc3uwQiE4JPmaulQoQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-06-24T14:39:24Z",
+              "updatedAt": "2021-06-24T14:39:24Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "68PNInrUcnf-YP1b3bL9uMqdddM",
+        "id": "UgxOuUoXUvIgk0Mm-1F4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "_b6Oq8ry9Qg8M3FoqLnyFX8OWWE",
+            "id": "UgxOuUoXUvIgk0Mm-1F4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Thx man you saved my site",
+              "textOriginal": "Thx man you saved my site",
+              "authorDisplayName": "Luca Gaetani",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLR4mHRqgJ_iZ7iFSrHIQBRGVWtY5AaNr3WUvQ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCOCJ8FxhmMTAs9cbE9Ve0TA",
+              "authorChannelId": {
+                "value": "UCOCJ8FxhmMTAs9cbE9Ve0TA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-06-22T08:15:45Z",
+              "updatedAt": "2021-06-22T08:15:59Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "mq062FRefvPryolHVoVVGjAmE68",
+        "id": "Ugw4pgx8rgbFJ8HoMuF4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "MkDTHQCiMJ171WTS74A-bOS3B1k",
+            "id": "Ugw4pgx8rgbFJ8HoMuF4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Great video man, thanks",
+              "textOriginal": "Great video man, thanks",
+              "authorDisplayName": "Life By Design",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/7jpVhHaA7M-Z1iw0-h7lL-IyIf0Cwmgxj3YRWszuUwOWgnH29ky0rWRYQ263EjHmGwPQak_Nig=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCaqXHdmkn3N-mhGrbh50Ojw",
+              "authorChannelId": {
+                "value": "UCaqXHdmkn3N-mhGrbh50Ojw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-06-22T01:01:19Z",
+              "updatedAt": "2021-06-22T01:01:19Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "1ylvEI1AnNi2cWqiJc4l5CCkuN8",
+        "id": "UgxMC2Q2zjPFJLVe_Ip4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "dr-ws2SWWENVN-e8VcTa8c4KhdQ",
+            "id": "UgxMC2Q2zjPFJLVe_Ip4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "This was so helpful! thanks a ton.",
+              "textOriginal": "This was so helpful! thanks a ton.",
+              "authorDisplayName": "Nidhish Manchanda",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLR4QYlR0y8r8KfC0llK9ihkufonlotR7dfIBfKffSwIdaCkjMMp-PkMlKz-9jxC=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCNKk9SH-4K0pwMVMB0F5SBA",
+              "authorChannelId": {
+                "value": "UCNKk9SH-4K0pwMVMB0F5SBA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-06-09T13:16:21Z",
+              "updatedAt": "2021-06-09T13:16:21Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "-VRIA2eGWY1BcH6xTYBhhY5T_IU",
+        "id": "UgyMDDn5J9UNPnqpfNB4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "uKkb43BJv9L-biCe-nq3ySwESTk",
+            "id": "UgyMDDn5J9UNPnqpfNB4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "this video really helped me",
+              "textOriginal": "this video really helped me",
+              "authorDisplayName": "Utkarsh Sahu",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLSvqISFVvuCsMQEQaZ2MKfoRmUA6N9FI8MVLCoVaw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC17TrtSPbhh4X3T9IMhjNJQ",
+              "authorChannelId": {
+                "value": "UC17TrtSPbhh4X3T9IMhjNJQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-05-22T20:09:04Z",
+              "updatedAt": "2021-05-22T20:09:04Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "BOExi4XJpZxAvOAjGivNsYNNiGY",
+        "id": "UgxRzWr4l1yMXd0N4C94AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "FJMg3WpMuBkrGvhpL9EveyH0sUg",
+            "id": "UgxRzWr4l1yMXd0N4C94AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "if you create a GET route to return all Persons as jsonify(Persons) will flask create a json of Persons and Pets or only persons?",
+              "textOriginal": "if you create a GET route to return all Persons as jsonify(Persons) will flask create a json of Persons and Pets or only persons?",
+              "authorDisplayName": "Marcelo Gazzola Ribeiro",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLTQX190JQFG3X45F-kDvvEWQlot3UEWlSc_Z7Vx8wM=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UClSxhkTSFDmG1z_nUdGAn5g",
+              "authorChannelId": {
+                "value": "UClSxhkTSFDmG1z_nUdGAn5g"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-05-13T18:27:48Z",
+              "updatedAt": "2021-05-13T18:27:48Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "b6hk2nTTjtf5vrkuDxGGbbrwYXI",
+        "id": "UgycbBVHmtCTJ26e0qN4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "XSqbZnIsnyhWg7HEGSJeP1dsd5s",
+            "id": "UgycbBVHmtCTJ26e0qN4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "I came looking for copper and found gold.",
+              "textOriginal": "I came looking for copper and found gold.",
+              "authorDisplayName": "Miguel Espinel",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLQYEb6jkZFcN0tAi2NTka_OoMh7_4qNMY7IkD_02oA=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCtq4nN7iyeSctlNA0xAtpYw",
+              "authorChannelId": {
+                "value": "UCtq4nN7iyeSctlNA0xAtpYw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-05-10T23:55:18Z",
+              "updatedAt": "2021-05-10T23:55:18Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "7IlkBTPghPpYFBoce1GZey3Avbs",
+        "id": "Ugy_anEppiWuIVu4grF4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "2qtn2m_V5G92z8caixnSY_Q7BGg",
+            "id": "Ugy_anEppiWuIVu4grF4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Hey Anthony, I just wanted to say many thanks for the video, I was following a course on Udemy and the instructor completely failed at explaining relationships, your explanation was clear and objective and really helped me understand this.",
+              "textOriginal": "Hey Anthony, I just wanted to say many thanks for the video, I was following a course on Udemy and the instructor completely failed at explaining relationships, your explanation was clear and objective and really helped me understand this.",
+              "authorDisplayName": "Erico Silva",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLR-Emb-4gsO748QA7xZfmo4xgKKG5pEYLE93_SLKg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCjhd42CrMuKsck4oDu2qodQ",
+              "authorChannelId": {
+                "value": "UCjhd42CrMuKsck4oDu2qodQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2021-03-28T01:44:09Z",
+              "updatedAt": "2021-03-28T01:44:53Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "Qo6LAjT4VhrZiUz_l3CqKuO65hY",
+        "id": "Ugw49svfJxV5D9NSLnd4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "zc_q2PGhTk3TC74mqDAJCGd2s1A",
+            "id": "Ugw49svfJxV5D9NSLnd4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "how can i make multiple seperate table but without any relation??",
+              "textOriginal": "how can i make multiple seperate table but without any relation??",
+              "authorDisplayName": "Ayush Aher",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLT0QGaCOmYeai-8B44K9HJ74tbf8XbG_W-YtF8qLQ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCTvCwisskc-b5OAV1gnbucA",
+              "authorChannelId": {
+                "value": "UCTvCwisskc-b5OAV1gnbucA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-03-27T06:37:32Z",
+              "updatedAt": "2021-03-27T06:37:32Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "dIQagWwSghqH5wtiYpqgfYRtuNI",
+        "id": "Ugye5V2l9CgjNyBYfbB4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "I0LIZstZTB9ObPNvf0xSffxKs94",
+            "id": "Ugye5V2l9CgjNyBYfbB4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "What would be the query to get which person has de most pets? Thanks a lot!",
+              "textOriginal": "What would be the query to get which person has de most pets? Thanks a lot!",
+              "authorDisplayName": "king luis",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLSQ7aa_hyVv_Dv2m_wFpHaF-eo0UvDyKzchNw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCsmaTacu6EvJZiyjO56lv5A",
+              "authorChannelId": {
+                "value": "UCsmaTacu6EvJZiyjO56lv5A"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-03-17T15:01:11Z",
+              "updatedAt": "2021-03-17T15:01:11Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "OUzQkokw89mB_iliwH3OFB-I-T4",
+        "id": "Ugzl2Xn10pcrm3BTxzh4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "hiIUawLMJPglOImaedkv_x9wqjM",
+            "id": "Ugzl2Xn10pcrm3BTxzh4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "You really helped me out understanding how to use the backref attribute. \u003cbr\u003eThanks!",
+              "textOriginal": "You really helped me out understanding how to use the backref attribute. \nThanks!",
+              "authorDisplayName": "Tomer Shmaya",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLQw_3YhZ8uyl_3eA7MIX4GsHSaX3IE5xP7mEA=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCgjsxuiDUmRdUujtgOhzTFA",
+              "authorChannelId": {
+                "value": "UCgjsxuiDUmRdUujtgOhzTFA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-03-17T00:01:48Z",
+              "updatedAt": "2021-03-17T00:01:48Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "Qnpczp9yvpReHzcMN8_RsZBdPSI",
+        "id": "UgxV_JP75dWrmVkfCgV4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Ap01nkEzMsncLyiyTWdf01pb90E",
+            "id": "UgxV_JP75dWrmVkfCgV4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "I almost always have issues with your tutorials -  80% of the time, they give errors.\u003cbr\u003e\u003cbr\u003eThis time error was:\u003cbr\u003esqlalchemy.exc.NoReferencedTableError: Foreign key associated with column &#39;Pet.owner_id&#39; could not find table &#39;person&#39; with which to generate a foreign key to target column &#39;id&#39;",
+              "textOriginal": "I almost always have issues with your tutorials -  80% of the time, they give errors.\n\nThis time error was:\nsqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'Pet.owner_id' could not find table 'person' with which to generate a foreign key to target column 'id'",
+              "authorDisplayName": "Blue",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLShGz-HOckjwgXSf_1ay8Mh0gQXdchxrUw23m4-=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCydiFh9SayYZskCr7k7a0NQ",
+              "authorChannelId": {
+                "value": "UCydiFh9SayYZskCr7k7a0NQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2021-03-15T13:47:56Z",
+              "updatedAt": "2021-03-15T13:47:56Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "hNaMf2WovYVAdQktJuJorJkiYU8",
+        "id": "UgzkWJovybjjwOKZ4IJ4AaABAg",
+        "snippet": {
+          "videoId": "juPQ04_twtA",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "xrUIkAQiA1gMDsCAPNlJ28_UVfI",
+            "id": "UgzkWJovybjjwOKZ4IJ4AaABAg",
+            "snippet": {
+              "videoId": "juPQ04_twtA",
+              "textDisplay": "Thank you, thank you, thank you. Even two years later, an awesome explanation. Also, I must say that not hearing the keyboard typing makes it so peaceful to watch.",
+              "textOriginal": "Thank you, thank you, thank you. Even two years later, an awesome explanation. Also, I must say that not hearing the keyboard typing makes it so peaceful to watch.",
+              "authorDisplayName": "Ethan Zerad",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLQL05KTakPz1MfD7V-uJl37yjQoQgHhE__8Mfuqdg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCv6YKTzbjh4MDtvwaUtWuow",
+              "authorChannelId": {
+                "value": "UCv6YKTzbjh4MDtvwaUtWuow"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2021-03-10T06:27:58Z",
+              "updatedAt": "2021-03-10T06:27:58Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      }
+    ]
+  }
+  

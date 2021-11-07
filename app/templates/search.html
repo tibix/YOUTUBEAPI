@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="container mt-5">
+    <div class="row">
+        {% for d in data %}
+        <div class="col-lg-4 mb-3">
+            <img class="rounded-circle" src="{{ data[d]['thumbnail'] }}" alt="Generic placeholder image" width="140" height="140">
+            <h2>{{ data[d]['title'] }}</h2>
+            <p><a class="btn btn-light" href="{{ url_for('main.analyze_channel', channel=data[d]['id']) }}" role="button">Analyze Channel &raquo;</a></p>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+{% endblock %}
+

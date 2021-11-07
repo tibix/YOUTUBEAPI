@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="d-flex justify-content-center p-3 my-3 text-white rounded">
+    <div class="loader"></div>
+</div>
+<div class="d-flex align-items-center p-3 my-3 text-white bg-secondary rounded shadow-sm">
+    
+    {% if videos %}
+        {% for video in videos.keys() %}
+            <div>
+                <p>{{ videos[video]['videoId'] }}</p>
+                <p>{{ videos[video]['title'] }}</p>
+                <img src="{{ videos[video]['thumbnailDefault'] }}">
+            </div>
+        {% endfor %}
+    {% else %}
+    <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt="" width="48" height="38">
+    <div class="lh-1">
+        <h1 class="h6 mb-0 text-white lh-1">Channel</h1>
+            <small>Since 2021</small>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}

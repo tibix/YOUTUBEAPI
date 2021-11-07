@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<section class="d-flex align-items-center p-3 my-3 bg-light rounded shadow-sm">
+    <h1 class="text-center">OneFlash - Video Collection</h1>
+</section>
+
+<div class="album py-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {% for video in data['video_data'] %}
+            <div class="col">
+                <div class="card bg-light shadow-sm">
+                    <img src="{{ data['video_data'][video]['thumbnails']['high']['url']}}" alt="">
+
+                    <div class="card-body">
+                        <p class="card-text">{{ data['video_data'][video]['title']|truncate(30, True, end='...') }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                            <a type="button" class="btn btn-sm btn-outline-danger" href="https://www.youtube.com/watch?v={{ video }} " target="blank">Go To Video</a>
+                            <a type="button" class="btn btn-sm btn-outline-success" href="#">View Stats</a>
+                            </div>
+                            <small class="text-muted">Total Time: {{ data['video_data'][video]['duration'][2:] }}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

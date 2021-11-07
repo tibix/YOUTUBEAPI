@@ -1,0 +1,45 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "85JcqBuT5zzE-U2awhgA9Hce03c",
+  "pageInfo": {
+    "totalResults": 7,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "GRyiUyPdQnKYiTesMpsE7S-KAq0",
+      "id": "PLCQipWKzvcnpD__qLLlvOLuECRqzvpwfK"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "VL-i--gkryY1NK4IabwS5T0aSXw",
+      "id": "PLCQipWKzvcnqP-xK6xpUTkGnav1h2WIFi"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "0gyfYKD5Yqhl0pKTnLGgsHCzc_Q",
+      "id": "PLCQipWKzvcnqX10hzz7Garrhio4ptyNQH"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "cutKQwlUoIod3acW83kcUzxoOIM",
+      "id": "PLCQipWKzvcnonI1DE8f0i-ZxoTlU37vZp"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "eOX2R4yncgt7D_xfVizgom2bHFg",
+      "id": "PLCQipWKzvcnrJPUmSCDEGzK2zlXVAiw8G"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "JQmusCJbA5GiPwPmlUo0SQfa_kc",
+      "id": "PLCQipWKzvcnpRa42nMKd_QgbDxQOcb_wr"
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "DmNqi1vxeLEtc7acqMBz8t3APjo",
+      "id": "PLCQipWKzvcno4zUQlv5EBT52ZISUyOlzr"
+    }
+  ]
+}

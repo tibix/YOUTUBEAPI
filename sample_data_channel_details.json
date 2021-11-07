@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "bnqfFkDOkpUCadYD2JBU_Bm-dHI",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "hO9Rn4fpBs84Zz92JKKDpWUe210",
+      "id": "UC2K_1ag15SEOErUIbm5AWxw",
+      "snippet": {
+        "title": "OneFlash",
+        "description": "Hei! Numele meu este David, am 25 de ani si imi place enorm sa fac stream si sa creez content, atat serios cat si neserios, din ariile de: gaming, tech, vlog, auto / moto (da, sunt motociclist de 8 ani), sau, mai bine zis, content despre toate lucrurile de care sunt pasionat.\n\n✅ Devino membru pe canal → https://www.youtube.com/OneFlash/join/\n\n🎮 Cele mai MARI reduceri la JOCURI → https://www.g2a.com/r/oneflash\n🛒 Reducere PC Garage la orice comanda - cod → ONEFLASH\n💡 Luminile mele 🌈RGB → https://neewer.com/collections/rgb-led-panel-light/products/neewer-2-3-packs-660-rgb-led-light-with-app-control-10096832\n\n🖥🖥💻 Setup-ul meu (specificatii) → http://bit.ly/oneFlashSetup\n\nUrmărește-mă și pe 👇\n● Instagram → @0neflash (cu zero)\n● Server oficial Discord (3800+ membri) → https://discord.gg/OneFlash\n\n✉️  Promovari → davidlivetv2@gmail.com\n📧  For business inquiries → hello@gg-industry.ro\n",
+        "customUrl": "oneflash",
+        "publishedAt": "2015-12-22T23:10:58Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AKedOLS6aPXzezbhRANLuR54zBDRJ3EUE_az6593fLzI3A=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AKedOLS6aPXzezbhRANLuR54zBDRJ3EUE_az6593fLzI3A=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AKedOLS6aPXzezbhRANLuR54zBDRJ3EUE_az6593fLzI3A=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "OneFlash",
+          "description": "Hei! Numele meu este David, am 25 de ani si imi place enorm sa fac stream si sa creez content, atat serios cat si neserios, din ariile de: gaming, tech, vlog, auto / moto (da, sunt motociclist de 8 ani), sau, mai bine zis, content despre toate lucrurile de care sunt pasionat.\n\n✅ Devino membru pe canal → https://www.youtube.com/OneFlash/join/\n\n🎮 Cele mai MARI reduceri la JOCURI → https://www.g2a.com/r/oneflash\n🛒 Reducere PC Garage la orice comanda - cod → ONEFLASH\n💡 Luminile mele 🌈RGB → https://neewer.com/collections/rgb-led-panel-light/products/neewer-2-3-packs-660-rgb-led-light-with-app-control-10096832\n\n🖥🖥💻 Setup-ul meu (specificatii) → http://bit.ly/oneFlashSetup\n\nUrmărește-mă și pe 👇\n● Instagram → @0neflash (cu zero)\n● Server oficial Discord (3800+ membri) → https://discord.gg/OneFlash\n\n✉️  Promovari → davidlivetv2@gmail.com\n📧  For business inquiries → hello@gg-industry.ro\n"
+        },
+        "country": "RO"
+      },
+      "statistics": {
+        "viewCount": "5306865",
+        "subscriberCount": "123000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "802"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+db_host = '10.17.0.33'
+db_user = 'yt_stats'
+db_pass = 'yt_stats'
+db_name = 'yt_stats'
+
+channel_id = 'UC2K_1ag15SEOErUIbm5AWxw'
+API_KEY = 'AIzaSyBO82tyR20DI82XBhRp7TE1csUOCG_Q1RU'
+ONEFLASH_KEY = 'AIzaSyDVOamyKOJK44PMGviUTKbzF8cDPwexjL4'
+SEARCH_API_KEY = 'AIzaSyDVOamyKOJK44PMGviUTKbzF8cDPwexjL4'
+# SEARCH_API_KEY = 'AIzaSyCR_OhmiH844JcLK5UsFYMLFK5LEqpFwCg'

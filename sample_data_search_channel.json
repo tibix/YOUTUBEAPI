@@ -1,0 +1,235 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "umqNIf_goM3ZJjDH_3HGuAPcMJk",
+    "regionCode": "RO",
+    "pageInfo": {
+      "totalResults": 78,
+      "resultsPerPage": 8
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mhm179uNkIWetZNmcOUOkz5riVA",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCNnj5ZidUZV61UNtZP0M1gQ"
+        },
+        "snippet": {
+          "publishedAt": "2017-07-13T15:20:48Z",
+          "channelId": "UCNnj5ZidUZV61UNtZP0M1gQ",
+          "title": "jaxiTV",
+          "description": "Hello, Numele meu este Vrinceanu Costin Marian, dar probabil toata lumea de pe platforma imi spune jaxi. Am pierdut cateva mii de ore intr-un joc minunat ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTafh0oggm7dQaMx4B2lqO8YhFcN4BRztOMTaqspw=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTafh0oggm7dQaMx4B2lqO8YhFcN4BRztOMTaqspw=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTafh0oggm7dQaMx4B2lqO8YhFcN4BRztOMTaqspw=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxiTV",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2017-07-13T15:20:48Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "NM3E7AdsV5Tzr23YhTHbM6ACzQE",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCQa87kgabW4SuelJpfVzb3Q"
+        },
+        "snippet": {
+          "publishedAt": "2019-08-16T19:17:55Z",
+          "channelId": "UCQa87kgabW4SuelJpfVzb3Q",
+          "title": "jaxiTV",
+          "description": "what's gooiinng oonn maaan Just a friendly voice to help you watch bad movies, good movies, and everything in between.",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQrUnwkv2pGtnRWqygTuu0chV5FcLDwK08iO1EZ=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQrUnwkv2pGtnRWqygTuu0chV5FcLDwK08iO1EZ=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQrUnwkv2pGtnRWqygTuu0chV5FcLDwK08iO1EZ=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxiTV",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-08-16T19:17:55Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "QUCKaeRHrx3rg1Ys0ommMMWDSEs",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCUhAAQPzfJpP7glIteqxYkA"
+        },
+        "snippet": {
+          "publishedAt": "2017-03-26T18:47:50Z",
+          "channelId": "UCUhAAQPzfJpP7glIteqxYkA",
+          "title": "jaxiTV",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLSAut81EJZc6YAfXC1L89Y1vjunRW-Eb4vbuWW6=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLSAut81EJZc6YAfXC1L89Y1vjunRW-Eb4vbuWW6=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLSAut81EJZc6YAfXC1L89Y1vjunRW-Eb4vbuWW6=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxiTV",
+          "liveBroadcastContent": "none",
+          "publishTime": "2017-03-26T18:47:50Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ny_AE3qZ2CYiJlYcb9nj7g7u-yQ",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UC3Usj5if6l5vLnp_KCwWDKg"
+        },
+        "snippet": {
+          "publishedAt": "2012-07-20T16:58:47Z",
+          "channelId": "UC3Usj5if6l5vLnp_KCwWDKg",
+          "title": "jaxiTV",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQG7CARPVyYFvtecNhhk3GHxZhf91gTsx3NwnPg=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQG7CARPVyYFvtecNhhk3GHxZhf91gTsx3NwnPg=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQG7CARPVyYFvtecNhhk3GHxZhf91gTsx3NwnPg=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxiTV",
+          "liveBroadcastContent": "none",
+          "publishTime": "2012-07-20T16:58:47Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ytSCwPp_GrMLXR9jqlMCV7fwZv4",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCvhvWcAD2b1j11vOJoocI1A"
+        },
+        "snippet": {
+          "publishedAt": "2019-11-24T19:16:22Z",
+          "channelId": "UCvhvWcAD2b1j11vOJoocI1A",
+          "title": "jaxitv bosu",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQUM4pfab3VGCW1RZRE0d_XRd-D6LHryZTETQ=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQUM4pfab3VGCW1RZRE0d_XRd-D6LHryZTETQ=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLQUM4pfab3VGCW1RZRE0d_XRd-D6LHryZTETQ=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxitv bosu",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-11-24T19:16:22Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Jpu-M1kpVQCHyFr20CQl_7L69LQ",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCRg1Nj9HoqddcnsnnXoOfiw"
+        },
+        "snippet": {
+          "publishedAt": "2014-11-13T12:58:01Z",
+          "channelId": "UCRg1Nj9HoqddcnsnnXoOfiw",
+          "title": "JaxiTV",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLRwZAP-Asm0tkcePYOAz33BvV9sXWpwB47Tk3pH=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLRwZAP-Asm0tkcePYOAz33BvV9sXWpwB47Tk3pH=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLRwZAP-Asm0tkcePYOAz33BvV9sXWpwB47Tk3pH=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "JaxiTV",
+          "liveBroadcastContent": "none",
+          "publishTime": "2014-11-13T12:58:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Y9OCqxNnwMmZ38SyK2rlvObC-r0",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCnNb1dePMs6LutPWfovEf1Q"
+        },
+        "snippet": {
+          "publishedAt": "2019-05-17T13:14:30Z",
+          "channelId": "UCnNb1dePMs6LutPWfovEf1Q",
+          "title": "ClickBait Marca JaxiTV",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTlojMV0q6Jw_aadia4dMprcGsRawy98-5NYpyI=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTlojMV0q6Jw_aadia4dMprcGsRawy98-5NYpyI=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTlojMV0q6Jw_aadia4dMprcGsRawy98-5NYpyI=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "ClickBait Marca JaxiTV",
+          "liveBroadcastContent": "upcoming",
+          "publishTime": "2019-05-17T13:14:30Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "zVMsg-ru3CVn7cq-zOxzng3NTfo",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UC2UL0GpkV9oY7Iam5b34EPA"
+        },
+        "snippet": {
+          "publishedAt": "2019-05-26T14:18:28Z",
+          "channelId": "UC2UL0GpkV9oY7Iam5b34EPA",
+          "title": "jaxitv Nexus",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTo4VF5M4pZMbk1OkKOvRUFFqMcy3q92Jj-Xw=s88-c-k-c0xffffffff-no-rj-mo"
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTo4VF5M4pZMbk1OkKOvRUFFqMcy3q92Jj-Xw=s240-c-k-c0xffffffff-no-rj-mo"
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AKedOLTo4VF5M4pZMbk1OkKOvRUFFqMcy3q92Jj-Xw=s800-c-k-c0xffffffff-no-rj-mo"
+            }
+          },
+          "channelTitle": "jaxitv Nexus",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-05-26T14:18:28Z"
+        }
+      }
+    ]
+  }
