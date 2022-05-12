@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+    {% if channels %}
+    <div class="col d-flex justify-content-center">
+        {% for channel in channels %}
+            <div class="card" style="width:350px; margin:10px 20px 10px; padding:10px">
+                <img class="card-img-top rounded-circle" src="{{ channel.channelThumbnailHigh }}" alt="{{ channel.channelTitle }}">
+                <div class="card-body">
+                    <h4 class="card-title">{{ channel.channelTitle }}</h4>
+                    <p class="card-text">{{ channel.channelDescription | truncate(120, True, end='...') }}</p>
+                </div>
+                <a class="btn btn-dark" href="{{ url_for('main.view_channel', channel=channel.channelId) }}">Go to channel page</a>
+            </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt="" width="48" height="38">
+    <div class="lh-1">
+        <h1 class="h6 mb-0 text-white lh-1">About page</h1>
+            <small>Since 2021</small>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}

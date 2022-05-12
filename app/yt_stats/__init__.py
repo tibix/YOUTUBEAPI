@@ -17,7 +17,7 @@ class YTStats:
         json_url = requests.get(url)
         data = json.loads(json_url.text)
         errors = []
-
+        print(data)
         try:
             data = data['items'][0]
         except KeyError as e:
@@ -44,7 +44,10 @@ class YTStats:
             customUrl = None
 
         try:
-            publishedAt = dt.fromisoformat(data['snippet']['publishedAt'][:-1])
+            publishedAt = data['snippet']['publishedAt'][:-1]
+            if publishedAt[-6] == ".":
+                publishedAt += "0"
+            publishedAt = dt.fromisoformat(publishedAt)
         except:
             errors.append("Cannot read publishedAt")
         
@@ -142,7 +145,10 @@ class YTStats:
                 channel_videos[video_id]['viewCount'] = data['statistics']['viewCount']
                 channel_videos[video_id]['likeCount'] = data['statistics']['likeCount']
                 channel_videos[video_id]['dislikeCount'] = data['statistics']['dislikeCount']
-                channel_videos[video_id]['commentCount'] = data['statistics']['commentCount']
+                try:
+                    channel_videos[video_id]['commentCount'] = data['statistics']['commentCount']
+                except:
+                    channel_videos[video_id]['commentCount'] = None
                 channel_videos[video_id]['channelId'] = data['snippet']['channelId']
         self.video_data = channel_videos
         return channel_videos

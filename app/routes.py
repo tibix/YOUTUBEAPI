@@ -33,7 +33,7 @@ def search():
 @main.route("/channels")
 def channels():
     channels = Channel.query.all()
-    return render_template('about.html', channels=channels)
+    return render_template('channels.html', channels=channels)
 
 @main.route("/channel/<channel>")
 def view_channel(channel):
@@ -46,8 +46,8 @@ def analyze_channel(channel):
     channel_details = YTStats(SEARCH_API_KEY, channel)
     
     if Channel.query.filter_by(channelId=channel).first() is not None: 
-        message = "Already exists"
-        # return render_template(....)
+        data = Channel.query.filter_by(channelId=channel).first_or_404()
+        return redirect(url_for('main.view_channel', channel=channel))
     else:
         data = channel_details.get_channel_details()
         pprint(data)
@@ -69,33 +69,32 @@ def analyze_channel(channel):
         db.session.add(channel_data)
         db.session.commit()
         
-    current_channel = Channel.query.filter_by(channelId=channel).first()
+        current_channel = Channel.query.filter_by(channelId=channel).first()
 
-    if len(list(current_channel.videos)) < 1:
-        videos = channel_details.get_channel_video_data()
-        for video in videos:
-            item = Video(
-                videoId                = video,
-                videoTitle             = videos[video]['title'],
-                videoDescription       = videos[video]['description'],
-                publishedAt            = dt.fromisoformat(videos[video]['publishedAt'][:-1]),
-                videoThumbnailDefault  = videos[video]['thumbnailDefault'],
-                videoThumbnailMedium   = videos[video]['thumbnailMedium'],
-                videoThumbnailHigh     = videos[video]['thumbnailHigh'],
-                videoDuration          = videos[video]['duration'][2:],
-                videoDimension         = videos[video]['dimension'],
-                videoDefinition        = videos[video]['definition'],
-                likeCount              = videos[video]['viewCount'],
-                dislikeCount           = videos[video]['dislikeCount'],
-                commentCount           = videos[video]['commentCount'],
-                channel                = videos[video]['channelId']
-            )
-            db.session.add(item)
-            db.session.commit()
-        return 'success'
-    else:
-        message += ", and has videos on record"
-    return message
+        if len(list(current_channel.videos)) < 1:
+            videos = channel_details.get_channel_video_data()
+            for video in videos:
+                item = Video(
+                    videoId                = video,
+                    videoTitle             = videos[video]['title'],
+                    videoDescription       = videos[video]['description'],
+                    publishedAt            = dt.fromisoformat(videos[video]['publishedAt'][:-1]),
+                    videoThumbnailDefault  = videos[video]['thumbnailDefault'],
+                    videoThumbnailMedium   = videos[video]['thumbnailMedium'],
+                    videoThumbnailHigh     = videos[video]['thumbnailHigh'],
+                    videoDuration          = videos[video]['duration'][2:],
+                    videoDimension         = videos[video]['dimension'],
+                    videoDefinition        = videos[video]['definition'],
+                    likeCount              = videos[video]['viewCount'],
+                    dislikeCount           = videos[video]['dislikeCount'],
+                    commentCount           = videos[video]['commentCount'],
+                    channel                = videos[video]['channelId']
+                )
+                db.session.add(item)
+                db.session.commit()
+        
+        return render_template('analyze_channel.html', channel=current_channel)
+   
 
 @main.route("/videos")
 def get_videos():
