@@ -86,7 +86,6 @@ def analyze_channel(channel):
                     videoDimension         = videos[video]['dimension'],
                     videoDefinition        = videos[video]['definition'],
                     likeCount              = videos[video]['viewCount'],
-                    dislikeCount           = videos[video]['dislikeCount'],
                     commentCount           = videos[video]['commentCount'],
                     channel                = videos[video]['channelId']
                 )

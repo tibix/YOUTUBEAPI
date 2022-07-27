@@ -1,6 +1,6 @@
-db_host = '10.17.0.33'
+db_host = '127.0.0.1'
 db_user = 'yt_stats'
-db_pass = 'yt_stats'
+db_pass = 'AnaFilipDelia2022!'
 db_name = 'yt_stats'
 
 channel_id = 'UC2K_1ag15SEOErUIbm5AWxw'

@@ -35,7 +35,6 @@ class Video(db.Model):
     videoDefinition         = db.Column(db.String(5), nullable=True)
     viewCount               = db.Column(db.Integer, nullable=False, default=0)
     likeCount               = db.Column(db.Integer, nullable=False, default=0)
-    dislikeCount            = db.Column(db.Integer, nullable=False, default=0)
     commentCount            = db.Column(db.Integer, nullable=False, default=0)
     channel                 = db.Column(db.String(200), db.ForeignKey('channel.channelId'), nullable=False)
     playlist                = db.Column(db.String(100), db.ForeignKey('playlist.playlistId'), nullable=True)
